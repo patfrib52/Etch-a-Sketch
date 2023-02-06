@@ -2,21 +2,29 @@
     box-sizing: border-box;
 }
 
-/* body {
+body {
     background-color: coral;
-} */
+}
 
 #container {
+    
     border: 1px solid red;
     width: 322px;
 }
 
+div {
+    margin: auto;
+}
+
 div > .boxs { 
     
-  display: inline-block;
+    display: inline-block;
     cursor: pointer;   
     height: 20px;
     width: 20px;
     background-color: #33b5e5;
-    border: 1px solid salmon;
+}
+
+div > .color{
+    background-color: black;
 }
